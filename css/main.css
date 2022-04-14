@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root{
+    --primary-color-Violet: hsl(257, 40%, 49%);
+    --secondary-color-SoftMagenta: hsl(300, 69%, 71%);
+}
+
+*, 
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-color-Violet);
+    font-family: "Open Sans", sans-serif;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: "Poppins", sans-serif;
+}
+
+.div--holder{
+    padding:80px;
+    letter-spacing: 1px;
+    height: 100vh;
+}
+
+.div--holder .logo{
+    text-align: left;
+}
+.div--holder .logo img{
+    width: 300px;
+}
+
+section{
+    margin: 100px 0;
+}
+.div--holder .huddle-image{
+   padding-bottom: 100px;
+}
+.div--holder .huddle-image img{
+    width: 100%;
+}
+
+.main-content h1{
+    font-size: 4rem;
+    text-align: center;
+}
+.main-content p{
+    font-size: 2.5rem;
+    text-align: center;
+}
+.button{
+    padding-top: 40px;
+    text-align: center;
+}
+.main-content .button a.reg-button{
+   font-size: 40px;
+   color: var(--primary-color-Violet);
+   background-color: white;
+   padding: 20px 150px;
+   border-radius: 50px;
+}
