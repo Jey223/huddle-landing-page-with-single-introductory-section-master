@@ -18,8 +18,9 @@ body{
     background-color: var(--primary-color-Violet);
     font-family: "Open Sans", sans-serif;
     color: white;
-    height: 100vh;
+    height: 100%;
     width: 100%;
+    text-align: center;
 }
 
 a{
@@ -60,20 +61,20 @@ section{
 }
 .main-content h1{
     font-size: 1.5rem;
-    text-align: center;
     letter-spacing: 1px;
 }
 .main-content p{
     font-size: 1rem;
-    text-align: center;
 }
-.reg-button{
-    text-align: center;
-}
+
 .reg-button a.button{
    font-size: 16px;
    color: var(--primary-color-Violet);
    background-color: white;
    padding: 10px 80px;
    border-radius: 25px;
+}
+
+.socials{
+   
 }
