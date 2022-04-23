@@ -48,7 +48,7 @@ h6{
 }
 
 section{
-    margin: 60px 0;
+    margin: 50px 0;
 }
 
 .div--holder .huddle-image img{
@@ -67,14 +67,36 @@ section{
     font-size: 1rem;
 }
 
-.reg-button a.button{
+
+.reg-container a{
+   display: inline-block; 
    font-size: 16px;
    color: var(--primary-color-Violet);
    background-color: white;
-   padding: 10px 80px;
+    width: 180px;
+   padding: 10px 0px;
    border-radius: 25px;
 }
 
+
 .socials{
-   
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 38%;
+
+}
+.socials .social--rad{
+    display: flex;
+    height: 30px;
+    width: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials a{
+   color: white;
+   font-size: 16px;
 }
