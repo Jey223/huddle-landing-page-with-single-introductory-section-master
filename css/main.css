@@ -37,7 +37,8 @@ h6{
 }
 
 .div--holder{
-    padding:30px 35px;
+    padding:30px;
+    background: url("../images/bg-mobile.svg") no-repeat;
 }
 
 .div--holder .logo{
@@ -57,7 +58,6 @@ section{
 
 .main-content{
     padding-top: 30px;
-    padding-bottom: 20px;
 }
 .main-content h1{
     font-size: 1.5rem;
@@ -65,25 +65,27 @@ section{
 }
 .main-content p{
     font-size: 1rem;
+    padding-bottom: 20px;
 }
 
 
-.reg-container a{
+.main-content .reg-container a{
    display: inline-block; 
-   font-size: 16px;
+   font-size: 15px;
    color: var(--primary-color-Violet);
    background-color: white;
-    width: 180px;
+    width: 200px;
    padding: 10px 0px;
    border-radius: 25px;
+   font-family:"Poppins", sans-serif ;
+   box-shadow: 1px 2px 3px 3px rgba(0, 0, 0, .15);
 }
 
 
 .socials{
     display: flex;
-    margin: auto;
-    justify-content: space-between;
-    width: 38%;
+    justify-content: center;
+    width: auto;
 
 }
 .socials .social--rad{
@@ -91,12 +93,215 @@ section{
     height: 30px;
     width: 30px;
     border: 1px solid white;
-    border-radius: 50%;
+    border-radius: 100%;
     justify-content: center;
     align-items: center;
+    margin-bottom: 10px;
+}
+.socials .social--rad:nth-of-type(2){
+    margin: 0px 10px;
 }
 
 .socials a{
    color: white;
    font-size: 16px;
+}
+
+footer, footer a{
+    font-size: 13px;
+    color: silver;
+}
+
+
+@media screen and (min-width: 768px){
+
+    .div--holder{
+        padding:40px;
+    }
+    .div--holder .logo img{
+        width: 180px;
+    }
+    
+    section{
+        margin: 60px 0;
+    }
+
+    .main-content{
+        padding-top: 35px;
+    }
+    .main-content h1{
+        font-size: 1.9rem;
+        letter-spacing: 1px;
+    }
+    .main-content p{
+        font-size: 1.4rem;
+        padding-bottom: 25px;
+    }
+
+    .main-content .reg-container a{
+        font-size: 20px;
+         width: 300px;
+        padding: 15px 0px;
+        border-radius: 25px;
+        box-shadow: 2px 3px 4px 4px rgba(0, 0, 0, .15);
+     }
+    
+     .socials .social--rad{
+        height: 50px;
+        width: 50px;
+        margin-bottom: 15px;
+    }
+    .socials .social--rad:nth-of-type(2){
+        margin: 0px 20px;
+    }
+    
+    .socials a{
+       font-size: 20px;
+    }
+
+    footer, footer a{
+        font-size: 18px;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+
+    .div--holder{
+        padding:50px 50px 0px 50px;
+        background: url("../images/bg-desktop.svg") no-repeat;
+        min-height: 100vh;
+    }
+
+    .div--holder .logo img{
+        width: 200px;
+    }    
+    
+    section{
+        margin: 40px 0px 0px 0px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        text-align: left;
+    }
+    
+    .main-content{
+        padding-left: 30px;
+        padding-top: 0px;
+    }
+    .main-content h1{
+        font-size: 2rem;
+        letter-spacing: 1px;
+        margin-bottom: 0px;
+    }
+    .main-content p{
+        font-size: 1.09rem;
+        padding-bottom: 0px;
+        margin: 20px 0px;
+    }
+    
+    
+    .main-content .reg-container a{
+       font-size: 18px;
+        width: 180px;
+       padding: 14px 0px;
+       border-radius: 25px;
+       text-align: center;
+       box-shadow: -1px 2px 3px 4px 4px rgba(0, 0, 0, .15);
+    }
+    
+
+    .socials{
+        justify-content: flex-end;
+        margin: 0px;
+    }
+    .socials .social--rad{
+        height: 45px;
+        width: 45px;
+        margin: 0px;
+        border: 2px solid white;
+    }
+    .socials .social--rad:nth-of-type(2){
+        margin: 0px 20px;
+    }
+    
+    .socials a{
+       color: white;
+       font-size: 20px;
+    }
+
+    footer{
+        visibility: hidden;
+    }
+    
+}
+
+
+@media screen and (min-width: 1280px) {
+
+    .div--holder{
+        padding:64px 64px 10px 64px;
+        background: url("../images/bg-desktop.svg") no-repeat;
+        min-height: 100vh;
+    }
+
+    .div--holder .logo img{
+        width: 220px;
+    }    
+    
+    section{
+        margin: 60px 0px 0px 0px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        text-align: left;
+    }
+    
+    .main-content{
+        padding-left: 50px;
+        padding-top: 0px;
+    }
+    .main-content h1{
+        font-size: 3rem;
+        letter-spacing: 1px;
+        margin-bottom: 0px;
+    }
+    .main-content p{
+        font-size: 1.4rem;
+        padding-bottom: 0px;
+        margin: 20px 0px;
+    }
+    
+    
+    .main-content .reg-container a{
+       font-size: 20px;
+        width: 250px;
+       padding: 12px 0px;
+       border-radius: 25px;
+       text-align: center;
+       box-shadow: -1px 3px 4px 5px 5px rgba(0, 0, 0, .15);
+    }
+    
+
+    .socials{
+        justify-content: flex-end;
+        margin: 0px;
+    }
+    .socials .social--rad{
+        height: 50px;
+        width: 50px;
+        margin: 0px;
+        border: 2px solid white;
+    }
+    .socials .social--rad:nth-of-type(2){
+        margin: 0px 20px;
+    }
+    
+    .socials a{
+       color: white;
+       font-size: 20px;
+    }
+
+    footer{
+        visibility: hidden;
+    }
+    
 }
