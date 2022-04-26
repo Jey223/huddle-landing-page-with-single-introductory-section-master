@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 :root{
-    --primary-color-Violet: hsl(257, 40%, 49%);
-    --secondary-color-SoftMagenta: hsl(300, 69%, 71%);
+    --primary-color-violet: hsl(257, 40%, 49%);
+    --secondary-color-softmagenta: hsl(300, 69%, 71%);
 }
 
 *, 
@@ -15,7 +15,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: var(--primary-color-Violet);
+    background-color: var(--primary-color-violet);
     font-family: "Open Sans", sans-serif;
     color: white;
     height: 100%;
@@ -72,13 +72,18 @@ section{
 .main-content .reg-container a{
    display: inline-block; 
    font-size: 15px;
-   color: var(--primary-color-Violet);
+   color: var(--primary-color-violet);
    background-color: white;
     width: 200px;
    padding: 10px 0px;
    border-radius: 25px;
    font-family:"Poppins", sans-serif ;
    box-shadow: 1px 2px 3px 3px rgba(0, 0, 0, .15);
+}
+
+.main-content .reg-container a:hover{
+    background-color: var(--secondary-color-softmagenta);
+    color: white;
 }
 
 
