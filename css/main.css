@@ -34,22 +34,28 @@ h4,
 h5,
 h6{
     font-family: "Poppins", sans-serif;
+    margin: 0px;
+}
+p{
+    margin: 0px;
 }
 
 .div--holder{
-    padding:30px;
+    padding:25px;
     background: url("../images/bg-mobile.svg") no-repeat;
+    min-height: 100vh;
+    overflow: hidden;
 }
 
 .div--holder .logo{
     text-align: left;
 }
 .div--holder .logo img{
-    width: 140px;
+    width: 120px;
 }
 
 section{
-    margin: 50px 0;
+    margin: 40px 0;
 }
 
 .div--holder .huddle-image img{
@@ -66,6 +72,7 @@ section{
 .main-content p{
     font-size: 1rem;
     padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 
@@ -121,26 +128,27 @@ footer, footer a{
 @media screen and (min-width: 768px){
 
     .div--holder{
-        padding:40px;
+        padding:38px;
     }
     .div--holder .logo img{
         width: 180px;
     }
     
     section{
-        margin: 60px 0;
+        margin-top: 40px;
+        margin-bottom: 0px;
     }
 
     .main-content{
-        padding-top: 35px;
+        padding-top: 25px;
     }
     .main-content h1{
-        font-size: 1.9rem;
+        font-size: 1.8rem;
         letter-spacing: 1px;
     }
     .main-content p{
-        font-size: 1.4rem;
-        padding-bottom: 25px;
+        font-size: 1.2rem;
+        padding: 15px 0px 20px 0px
     }
 
     .main-content .reg-container a{
@@ -149,6 +157,10 @@ footer, footer a{
         padding: 15px 0px;
         border-radius: 25px;
         box-shadow: 2px 3px 4px 4px rgba(0, 0, 0, .15);
+     }
+
+     .socials{
+        margin: 25px 0px 10px 0px;
      }
     
      .socials .social--rad{
@@ -173,9 +185,8 @@ footer, footer a{
 @media screen and (min-width: 1024px) {
 
     .div--holder{
-        padding:50px 50px 0px 50px;
+        padding: 40px;
         background: url("../images/bg-desktop.svg") no-repeat;
-        min-height: 100vh;
     }
 
     .div--holder .logo img{
@@ -215,6 +226,13 @@ footer, footer a{
     }
     
 
+    div.container{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        margin-top: 25px;
+    }
+
     .socials{
         justify-content: flex-end;
         margin: 0px;
@@ -234,8 +252,8 @@ footer, footer a{
        font-size: 20px;
     }
 
-    footer{
-        visibility: hidden;
+    footer, footer a{
+        font-size: 22px;
     }
     
 }
@@ -244,7 +262,7 @@ footer, footer a{
 @media screen and (min-width: 1280px) {
 
     .div--holder{
-        padding:64px 64px 10px 64px;
+        padding:45px;
         background: url("../images/bg-desktop.svg") no-repeat;
         min-height: 100vh;
     }
@@ -254,7 +272,7 @@ footer, footer a{
     }    
     
     section{
-        margin: 60px 0px 0px 0px;
+        margin: 50px 0px 0px 0px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         text-align: left;
@@ -265,9 +283,10 @@ footer, footer a{
         padding-top: 0px;
     }
     .main-content h1{
-        font-size: 3rem;
+        font-size: 2.5rem;
         letter-spacing: 1px;
         margin-bottom: 0px;
+        padding-top: 20px;
     }
     .main-content p{
         font-size: 1.4rem;
@@ -285,7 +304,12 @@ footer, footer a{
        box-shadow: -1px 3px 4px 5px 5px rgba(0, 0, 0, .15);
     }
     
-
+    div.container{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        margin-top: 75px;
+    }
     .socials{
         justify-content: flex-end;
         margin: 0px;
@@ -305,8 +329,8 @@ footer, footer a{
        font-size: 20px;
     }
 
-    footer{
-        visibility: hidden;
+    footer, footer a{
+        font-size: 22px;
     }
     
 }
