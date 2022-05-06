@@ -44,7 +44,7 @@ p{
     padding:25px;
     background: url("../images/bg-mobile.svg") no-repeat;
     min-height: 100vh;
-    max-width:800px;
+    max-width:100%;
     overflow: hidden;
     margin:0 auto;
 }
@@ -121,9 +121,10 @@ section{
    font-size: 16px;
 }
 
-.socials a:hover{
+.socials .social--rad:hover{
     background-color: var(--secondary-color-softmagenta);
     color: white;
+    border: 1px solid var(--secondary-color-softmagenta);
 }
 
 footer, footer a{
