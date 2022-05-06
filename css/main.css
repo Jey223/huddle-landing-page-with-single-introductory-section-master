@@ -15,8 +15,6 @@
 }
 
 body{
-    margin: 0;
-    padding: 0;
     background-color: var(--primary-color-violet);
     font-family: "Open Sans", sans-serif;
     color: white;
@@ -121,6 +119,11 @@ section{
 .socials a{
    color: white;
    font-size: 16px;
+}
+
+.socials a:hover{
+    background-color: var(--secondary-color-softmagenta);
+    color: white;
 }
 
 footer, footer a{
