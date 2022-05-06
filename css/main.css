@@ -121,9 +121,10 @@ section{
    font-size: 16px;
 }
 
-.socials a:hover{
+.socials .social--rad:hover{
     background-color: var(--secondary-color-softmagenta);
     color: white;
+    border: 1px solid var(--secondary-color-softmagenta);
 }
 
 footer, footer a{
