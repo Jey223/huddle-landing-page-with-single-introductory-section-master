@@ -146,7 +146,7 @@ footer a:hover{
 
 @media screen and (min-width: 1024px) {
     .div--holder{
-        padding:2.5rem 3rem;
+        padding:2.5rem 3.5rem;
         background: url("../images/bg-desktop.svg") no-repeat;
         min-height: 100vh;
         display: grid;
@@ -154,13 +154,12 @@ footer a:hover{
     }
 
     header{
-        padding:0px 0px 2rem 0px;
+        padding:0px 0px 4rem 0px;
     }
 
     .grid-laptop{
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        column-gap: 50px;
+        grid-template-columns: 1fr 600px;
     }
     
     section{
@@ -174,12 +173,12 @@ footer a:hover{
     }
 
     .title{
-        font-size: 3.5rem;
+        font-size: 2.8rem;
         text-align: left;
     }
     .text{
         margin-top: 0px;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         text-align: left;
         padding: 0px;
     }
@@ -191,8 +190,8 @@ footer a:hover{
     }
     .btn{
         margin-top: 7px;
-        width: 220px;
-        font-size: 1.2rem;
+        width: 200px;
+        font-size: 1rem;
     }
 
     footer{
